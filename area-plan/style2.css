@@ -28,8 +28,21 @@ header{
     justify-content: space-between;
 }
 
-div{
+.top-menu{
     display: flex;
     justify-content: center;
+    gap: 100px;
 
+
+}
+
+#church{
+    text-align: center;
+    height: 80px;
+    width: 190px;
+}
+
+#a{
+    text-decoration: none;
+    color: black;
 }
