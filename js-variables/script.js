@@ -32,7 +32,10 @@ function function2(){
 
 function function3(){
     let variable = 5
-    
+    variable = variable*2
+    variable = variable + 10
+    variable = variable / 2
+    variable = variable - 5
 
-alert( "The variable value should be 5!");
+alert( "The number is: " + variable);
 }
