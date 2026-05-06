@@ -24,8 +24,8 @@ function game(userChoice){
 }
 
 
-  // document.addEventListener('DOMContentLoaded', function(){
-  //   document.querySelector("#rock-button").onClick = ("Rock");
+document.addEventListener('DOMContentLoaded', function(){
+   document.querySelector("#rock-button").onClick = ("Rock");
 
-  // });
+ });
 
