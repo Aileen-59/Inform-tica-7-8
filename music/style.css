@@ -1,5 +1,5 @@
 .instrument{
-    background-color: whitesmoke;
+    background-color: #E6E6FA;
     display:flex;
     flex-direction: column;
     border: 1px solid gray;
@@ -18,16 +18,22 @@
 
 body{
     text-align: center;
-    background-color: #FFFFF0;
+    background-color: #FFF0F5;
+
+
 }
 
 h1{
-    color: #008B8B;
+    color: #FF69B4;
 }
 
 div{
      text-align:center;
     display: flex;
-    justify-content: space-between;
-    gap: 15px;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px;
+}
+h2,p{
+    color:
 }
