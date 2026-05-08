@@ -1,0 +1,33 @@
+.instrument{
+    background-color: whitesmoke;
+    display:flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    border-radius: 1rem;
+    align-itmes: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.active{
+    background-color: #9932CC;
+    color: white;
+}
+
+body{
+    text-align: center;
+    background-color: #FFFFF0;
+}
+
+h1{
+    color: #008B8B;
+}
+
+div{
+     text-align:center;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
