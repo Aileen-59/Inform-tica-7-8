@@ -1,13 +1,18 @@
-let counter = 60;
+let counter = 1500; // Fase 1: 25 min = 1500 segundos
+let timerId = null;
 
 function count() {
-    counter--;
-    document.querySelector('h1').innerHTML = counter;
+if (counter > 0) {
+counter--;
+
+// Fase 2: Mostrar minutos y segundos separados
+let minutes = Math.floor(counter / 60);
+let seconds = counter % 60;
+
+if (seconds < 10) {
+seconds = '0' + seconds;
+}
+if (minutes < 10) {
+minutes = '0' + minutes;
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelector('button').onclick = function(){
-    setInterval(count, 1000);
-    document.querySelector("button").disabled = true;
-    };
-});
